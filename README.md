@@ -7,15 +7,16 @@ The repository mirroring all scripts on cdnjs.cloudflare.com
 
 We will host any version of any library. Feel free to add a pull request for an older version of a library if your site still uses it.
 
-__Libraries must have notable popularity, 100 watchers on GitHub would be a good signification.__
+__Libraries must have notable popularity. 100 watchers on GitHub is a good example, but as long as reasonably popularity can be demonstrated the library will be added.__
 
 ## Pull requests steps
 
 1. Fork this repository
 2. Add your library (following the conventions of this repository)
   * 1 library per pull request
+  * The pull request must be tagged in the original repository (some exceptions apply)
   * include a package.json in the npm format (see `test/schemata/npm-package.json` for details - it's very simple)
-  * Run `npm test` on your repo once you've added a library to check everything is ok
+  * Run `npm test` to check everything is ok
 3. Send us a pull request.
   * Make sure you include in the pull description:
       1. Where you downloaded the script
